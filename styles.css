@@ -49,5 +49,35 @@ main {
 
 #sortbutton {
 	float: none;
-	justify-content: center;
+	text-align: center;
+  width: 100px;
+  height: 30px;
+  background: #099909;
+  border: 1px black;
+  border-radius: 10px;
+}
+
+.red {
+  background: crimson;
+  color: black;
+}
+
+.blue {
+  background: #4169E1;
+  color: black;
+}
+
+.black {
+  background: black;
+  color: white;
+}
+
+.green {
+  background: #00FF00;
+  color: black;
+}
+
+.yellow {
+  background: gold;
+  color: black;
 }

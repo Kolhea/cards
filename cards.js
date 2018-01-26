@@ -1,4 +1,5 @@
-var cards=[1,2,3,4,5];
+var cards = ["black", "blue", "green", "red", "yellow"];
+
 function sortCards() {
 	cards.sort(function(a, b){return 0.5 - Math.random()});
 	console.log(cards);
@@ -6,6 +7,7 @@ function sortCards() {
 	$(function() {
 		$(".colorbox").each(function(i, obj) {
 			$(this).text(cards[i]);
+			$(this).attr("class","colorbox").addClass(cards[i]);
 		})
 	});
 }
