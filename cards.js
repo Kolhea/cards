@@ -14,6 +14,7 @@ function sortCards() {
 
 $( document ).ready(function() {
 	console.log("Valmis");
+	sortCards();
 
 	$( "#sortbutton").click(function() {
 		sortCards();
